@@ -1,0 +1,108 @@
+
+*{
+    padding: 0;
+     margin:0;
+     box-sizing: border-box;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 20px;
+}
+.navbar img{
+    width:130px;
+    margin-left:70px;
+    
+}
+.nav-right1{
+    display: flex;
+    padding: 5px;
+    justify-content: space-evenly;
+    margin-right: 70px;
+    gap: 15px;
+   
+}
+.anker{
+    margin-top: 1px;
+    /* border:1px solid black; */
+    width: 80px;
+    background-color:rgb(229 , 9 , 20);
+    color:rgb(255,255,255);
+    padding: 2px 6px;
+    text-align: center;
+    border-radius: 3px;
+    font-family:unset;
+}
+.sec{
+    padding: 4px 15px;
+    border-radius: 4px;
+    background: transparent;
+    color: aliceblue;
+    border: 1px solid white;
+}
+/* header End */
+
+.hero{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:white ;
+}
+.h-form{
+    display: flex;
+    justify-content: center;
+
+}
+.h-main h1{
+    font-size:55px;
+    margin-bottom: 15   px;
+
+}
+.h-main p{
+    font-size: 20px;
+    display:flex;
+    justify-content:center;
+    margin-bottom: 20px;
+}
+.h-form h3{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.h-form input{
+    width:370px;
+    height: 45px;
+    background: transparent;
+    border: 1px solid white;
+    padding-left: 7px;
+    border-radius: 3px;
+}
+.h-form button{
+    width:180px;
+    height: 45px;
+    background-color:rgb(229 , 9 , 20);
+    color:rgb(255,255,255);
+    font-family: unset;
+    border-radius: 3px;
+    border:none;  
+    font-size: 20px;  
+    font-weight: 600;
+}
+.h-form{
+    margin-left: 50px;
+    
+}
+
+.background {
+    /* Adds a black shadow overlay on top of the image */
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://assets.nflxext.com/ffe/siteui/vlv3/cc73e7c7-7860-4ef4-8fc8-1baf24569d2f/web/IN-en-20260126-TRIFECTA-perspective_90d714e8-acc9-4253-ab46-ca6b349c1989_large.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
