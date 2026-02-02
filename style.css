@@ -4,7 +4,9 @@
      margin:0;
      box-sizing: border-box;
 }
-
+.anker:hover{
+    background-color: rgb(177, 8, 16);
+}
 .navbar{
     display:flex;
     justify-content: space-between;
@@ -26,8 +28,7 @@
    
 }
 .anker{
-    margin-top: 1px;
-    /* border:1px solid black; */
+
     width: 80px;
     background-color:rgb(229 , 9 , 20);
     color:rgb(255,255,255);
@@ -46,6 +47,9 @@
 .hero button:hover{
     background-color:  rgb(177, 10, 18);
 }
+.sec option{
+    color: #000000;
+}
 /* header End */
 
 .hero{
@@ -62,19 +66,24 @@
 
 }
 .h-main h1{
-    font-size:55px;
+    font-size:45px;
     margin-bottom: 15   px;
-
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+   
 }
 .h-main p{
     font-size: 20px;
     display:flex;
     justify-content:center;
     margin-bottom: 20px;
+    margin-top: 6px;
 }
 .h-form h3{
     font-size: 15px;
     margin-bottom: 10px;
+    font-weight:500;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .h-form input{
     width:370px;
@@ -83,7 +92,7 @@
     border: 1px solid rgb(255, 255, 255);
     padding-left: 7px;
     border-radius: 3px;
-    
+    color: aliceblue;
 }
 .h-form button{
     width:180px;
@@ -119,6 +128,7 @@
     justify-content: end;
     color: white;
     padding-left: 120px;
+  
 }
 .movie{
   display: flex;
@@ -314,7 +324,7 @@ background-color:#3c3d3f;
    border:1px solid rgb(122, 117, 117);
    padding-left: 10px;
    border-radius: 4px;
-  
+   color:aliceblue;
 }
 .footer  button{
     height:50px;
